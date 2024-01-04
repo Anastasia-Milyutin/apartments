@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #FBFBFB;
+  background: #fbfbfb;
   font-family: "Forum", serif;
   font-family: "Roboto", sans-serif;
 }
@@ -176,13 +176,13 @@ header {
 
 /*flex-img start*/
 .block {
-width: 100%;
-padding: 30px 0;
-display: flex;
-flex-direction: row;
-gap: 30px;
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
-.flex-img{
+.flex-img {
   overflow: hidden;
 }
 /*flex-img end*/
@@ -192,6 +192,7 @@ gap: 30px;
   height: 893px;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .background-one {
@@ -204,23 +205,103 @@ gap: 30px;
 .elips {
   position: absolute;
   bottom: 0;
-  left: 35%;
+  left: 30%;
 }
 .palm_three {
   position: absolute;
   bottom: 0;
-  right: 29%;
+  right: 24%;
 }
 .women {
   position: absolute;
   z-index: 2;
   bottom: 0;
-  left: 37%;
+  left: 33%;
 }
 .palm_four {
   position: absolute;
   bottom: 0;
   z-index: 3;
-  left: 30%;
+  left: 25%;
 }
+.block-text__pros {
+  margin-top: -550px;
+  position: absolute;
+}
+.pros__p {
+  font-family: "Forum", serif;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 45px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pros__h {
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block__pros {
+  left: 7%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.block-flex__pros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  gap: 600px;
+}
+.block-flex__pros-two {
+  display: flex;
+  flex-direction: row;
+  gap: 800px;
+}
+.element__block {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.pros__img {
+  width: 80px;
+  height: 93px;
+}
+.text__p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*pros end*/
