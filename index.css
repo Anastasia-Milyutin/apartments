@@ -305,3 +305,157 @@ header {
 }
 
 /*pros end*/
+
+/*dream start*/
+.dream {
+  padding: 100px 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 780px;
+}
+.dream__h {
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dream-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.block-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.block-text-flex {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.dream__p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cat {
+  position: absolute;
+  right: 300px;
+}
+/*dream end*/
+
+/*maral start*/
+.maral {
+  height: 809px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.maral__img {
+  position: absolute;
+}
+.maral__text {
+  position: absolute;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.maral__h {
+  font-family: TT Firs Neue;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.maral__p {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 45px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block-symbol {
+  position: relative;
+}
+.symbol {
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 0px;
+  width: 52px;
+  height: 43px;
+}
+pre {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.maral__block-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.element__block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.star {
+}
+.star__p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*maral end*/
