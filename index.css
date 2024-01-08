@@ -460,6 +460,7 @@ pre {
 
 /*video start*/
 .video {
+  position: relative;
   margin-top: 100px;
   bottom: 0;
   height: 737px;
@@ -469,6 +470,13 @@ pre {
   flex-direction: row;
   justify-content: space-around;
   align-items: end;
+}
+.quadcopter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  margin-top: -200px;
 }
 .block__text-video {
   padding-bottom: 140px;
@@ -513,3 +521,136 @@ pre {
 }
 
 /*video end*/
+
+/*choice start*/
+.choice {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.choice__h {
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+}
+.choice__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.choice__minus,
+.choice__plus {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.minus__h {
+  text-align: center;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 45px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.element__img-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.element__p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.element__img {
+  position: relative;
+}
+.minus__img-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.element-p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.element__review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.sign {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -15px;
+}
+.review__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.background__review {
+  position: relative;
+}
+.review__p {
+  position: absolute;
+  width: 940px;
+  color: #636363;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.block__sms-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sms-bottom {
+  padding-top: 250px;
+}
+/*choice end*/
