@@ -654,3 +654,179 @@ pre {
   padding-top: 250px;
 }
 /*choice end*/
+
+/*plots start*/
+.plots {
+  padding: 40px 0px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plots__h {
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.plots__p {
+  text-align: center;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 45px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block-plots__background {
+  position: relative;
+  width: 100%;
+}
+.plots__background {
+  position: absolute;
+  width: 100%;
+  height: 1248px;
+}
+.palms__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.block-img__flex {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  left: 15%;
+  top: 0;
+}
+.plots-img,
+.plots__text {
+  z-index: 3;
+}
+.block-two {
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+}
+.block-background-two {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.block-text-h__flex {
+  left: 15%;
+  gap: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.element-text {
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 3;
+}
+.element-text__h {
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.element-text__p {
+  text-shadow: 0px 0px 50px #fff, 0px 0px 40px #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block-input {
+  width: 400px;
+  height: 344px;
+  border-radius: 15px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.name,
+.number {
+  width: 320px;
+  height: 80px;
+  border-radius: 5px;
+  background: #f5f6f8;
+  text-align: center;
+  text-shadow: 0px 0px 50px #fff, 0px 0px 40px #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  opacity: 0.4;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.input-btn {
+  cursor: pointer;
+  width: 320px;
+  height: 80px;
+  background-color: #e8cd80;
+  background-blend-mode: soft-light, normal;
+  box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.25) inset;
+  color: #756532;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  border: none;
+}
+.input-btn:hover {
+  background-color: #c7af6e;
+}
+.footnote {
+  width: 150px;
+  height: 150px;
+}
+/*plots start*/
