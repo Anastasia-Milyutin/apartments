@@ -721,6 +721,8 @@ pre {
   z-index: 3;
 }
 .block-two {
+  background-image: url(img/plots.svg);
+  height: 790px;
   padding-top: 100px;
   position: relative;
   width: 100%;
@@ -731,6 +733,9 @@ pre {
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
+}
+.background-two {
+  position: absolute;
 }
 .block-text-h__flex {
   left: 15%;
@@ -830,3 +835,122 @@ pre {
   height: 150px;
 }
 /*plots start*/
+
+/*additionally  start*/
+.additionally {
+  margin-top: 30px;
+  height: 780px;
+  padding: 80px 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat,
+    rgba(255, 255, 255, 0.2);
+  box-shadow: 50px 50px 70px -21px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.add__block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.add__h {
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block-flex__check {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.element__check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.check__img {
+  width: 25px;
+  height: 25px;
+}
+.check__p {
+  width: 400px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*additionally  end*/
+
+/*advocate start*/
+.advocate {
+  position: relative;
+  padding: 80px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.advocate__h {
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.advocate__p {
+  text-align: center;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 45px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.advocate__block-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.mouse {
+  position: absolute;
+  bottom: -100px;
+}
+/*advocate end*/
