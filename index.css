@@ -954,3 +954,128 @@ pre {
   bottom: -100px;
 }
 /*advocate end*/
+
+/*media start*/
+.media {
+  margin-top: 200px;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.media__h {
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.media__p {
+  text-align: center;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 45px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #252525 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block-flex__media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.block-media {
+  width: 360px;
+  height: 391px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #f8f8f8 0%, #fff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.block-media__p {
+  width: 310px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block-media__p-small {
+  width: 260px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  background: radial-gradient(
+    85.77% 48.88% at 44.24% 46.07%,
+    rgba(111, 111, 111, 0.5) 0%,
+    rgba(78, 78, 78, 0.5) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block-media__link {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.element-again {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.again__p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+  background: var(
+    --Radial,
+    radial-gradient(85.77% 48.88% at 44.24% 46.07%, #6f6f6f 0%, #4e4e4e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*media start*/
