@@ -31,18 +31,21 @@ flexImg.addEventListener("touchmove", function (e) {
   scrollImages(touch);
 });
 
-const openButton = document.querySelector(".question__btn-img_open");
-const closeButton = document.querySelector(".question__btn-img_close");
-const answerBlock = document.querySelector(".question__answer");
+const btns = document.querySelectorAll(".question__block-flex_btn");
+btns.forEach((btn) => {
+  const openBtn = btn.querySelector(".question__btn-img_open");
+  const answerBlock = btn.nextElementSibling;
 
-openButton.addEventListener("click", function () {
-  openButton.style.display = "none";
-  closeButton.style.display = "block";
-  answerBlock.style.display = "block";
-});
+  openBtn.addEventListener("click", () => {
+    openBtn.style.display = "none";
+    btn.querySelector(".question__btn-img_close").style.display = "block";
+    answerBlock.style.display = "block";
+  });
 
-closeButton.addEventListener("click", function () {
-  closeButton.style.display = "none";
-  openButton.style.display = "block";
-  answerBlock.style.display = "none";
+  const closeBtn = btn.querySelector(".question__btn-img_close");
+  closeBtn.addEventListener("click", () => {
+    closeBtn.style.display = "none";
+    btn.querySelector(".question__btn-img_open").style.display = "block";
+    answerBlock.style.display = "none";
+  });
 });
